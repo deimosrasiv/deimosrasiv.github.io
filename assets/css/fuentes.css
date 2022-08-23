@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('assets/css/fuentes/MontserratAlternates-Black');
+    src: url('assets/css/fuentes/MontserratAlternates-BlackItalic'),
+        url('assets/css/fuentes/MontserratAlternates-Bold'),
+        url('assets/css/fuentes/MontserratAlternates-BoldItalic'),
+        url('assets/css/fuentes/MontserratAlternates-ExtraBold'),
+
+
+}
+
+.Montserrat-Thin {
+    font-family: 'MontserratAlternates-Black';
+}
