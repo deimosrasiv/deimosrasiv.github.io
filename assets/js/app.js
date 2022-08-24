@@ -65,6 +65,7 @@ function enviar() {
         var my_mensaje2 = `Esto es solo una Prueba, no es real!!. Alerta de temperatura alta:`;
 
         var token = "1995224836:AAFTI0sdAnVAs5fOjEKjPYu6aU3fe7iMsp0";
+        var token2 = "5664563056:AAEHxj_Kk5T3WNbYlLaT02SQQzqJl-0373U"
         var chat_id_canal = -1001530134776; /* envia al canal */
         var chat_id_master = 1942133499; /* envia solo al master */
 
