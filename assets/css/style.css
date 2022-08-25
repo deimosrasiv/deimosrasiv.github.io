@@ -22,14 +22,14 @@ body {
 .portafolio {
     background-color: #EAEEEA;
     background-image: url("assets\img\wp4325526.JPG");
-    
+
 }
 
 
 
 
 
-.container__card{
+.container__card {
     max-width: 1200px;
     margin: auto;
     margin-top: 40px;
@@ -39,17 +39,17 @@ body {
     flex-wrap: wrap;
 }
 
-.card__father{
+.card__father {
     margin: 20px;
     perspective: 1000px;
 }
 
-.card__father:hover .card{
+.card__father:hover .card {
     transform: rotateY(180deg);
 }
 
 
-.card{
+.card {
     width: 300px;
     height: 350px;
     position: relative;
@@ -58,14 +58,14 @@ body {
     background-color: #2b4162;
 }
 
-.card__front{
+.card__front {
     background-size: cover;
     background-position: center;
 }
 
 
 .card__front,
-.card__back{
+.card__back {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -76,13 +76,13 @@ body {
     border-radius: 0px;
 }
 
-.card__back{
+.card__back {
     transform: rotateY(180deg);
     background: white;
     color: #000;
 }
 
-.body__card_front{
+.body__card_front {
     width: 100%;
     height: 100%;
     text-align: center;
@@ -94,28 +94,28 @@ body {
     transform: translateZ(60px);
 }
 
-.bg{
+.bg {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.4);
     border-radius: 0px;
 }
 
-.body__card_back{
+.body__card_back {
     padding: 40px;
     text-align: center;
     transform: translateZ(60px);
 }
 
-.body__card_back p{
+.body__card_back p {
     margin-top: 30px;
     font-size: 18px;
 }
 
-.body__card_back input{
+.body__card_back input {
     padding: 10px 40px;
     margin-top: 30px;
     font-size: 16px;
@@ -128,7 +128,7 @@ body {
     transition: box-shadow 600ms;
 }
 
-.body__card_back input:hover{
+.body__card_back input:hover {
     box-shadow: 1px 1px 30px 0px #449de6;
 }
 
@@ -140,8 +140,8 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-   * display: flex;
-    *justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     transition: 0.6s;
     padding: 10px;
@@ -204,7 +204,7 @@ header a {
     position: relative;
     width: 100%;
     height: 40vh;
-    
+
     background-size: cover;
 }
 
@@ -262,12 +262,13 @@ header.sticky a {
 
 
 .logos {
-    overflow:hidden;
+    overflow: hidden;
     transition: all 0.7 ease;
 }
 
-.logos:hover  {
-    -webkit-transform:scale(1.3);transform:scale(1.3);
+.logos:hover {
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
 }
 
 .sombra {
@@ -286,5 +287,11 @@ header.sticky a {
     color: #EAEEEA;
 }
 
-.contenedor:hover .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
-.contenedor {overflow:hidden;}
+.contenedor:hover .imagen {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.contenedor {
+    overflow: hidden;
+}
